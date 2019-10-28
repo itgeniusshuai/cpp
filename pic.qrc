@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/pic">
+        <file>vein/earth.jpeg</file>
+        <file>vein/jupiter.jpg</file>
+        <file>vein/mars.jpg</file>
+        <file>vein/mercury.jpg</file>
+        <file>vein/neptune.jpg</file>
+        <file>vein/saturn.jpg</file>
+        <file>vein/sun.jpg</file>
+        <file>vein/uranus.jpg</file>
+        <file>vein/venus.jpg</file>
+        <file>vein/earth.bmp</file>
+        <file>vein/moon.jpeg</file>
+    </qresource>
+</RCC>
