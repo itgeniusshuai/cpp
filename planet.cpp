@@ -6,6 +6,11 @@ Planet::Planet(float revolutionR, float revolutionCycle,float obliquity, QString
     this->ownRevolutionAngle = 0;
 }
 
+Planet::~Planet(){
+    if(pixmap != nullptr){
+        delete pixmap;
+    }
+}
 
 float Planet::getRealRevolutionR(){
     if(PlanetType::MOON ==  planetType){

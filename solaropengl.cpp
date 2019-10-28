@@ -112,7 +112,7 @@ void SolarOpenGL::drawPlanet(Planet * planet){
 //    qDebug() << planet->getPlantName() << "r:" << planet->getRealRevolutionR();
     // 确定该球的位置
     if(planet->getPlanetType() != PlanetType::FIXED){
-        // 延y轴转动(公转)
+        // 延z轴转动(公转)
         float revolutionAngle = planet->calRevolutionAngle();
         planet->setRevolutionAngle(revolutionAngle + planet->getRevolutionAngle());
         glRotatef(planet->getRevolutionAngle(),0,0,1);
